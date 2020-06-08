@@ -23,7 +23,11 @@ class Scraper
         $this->scraper = new HttpClient($httpOptions);
     }
 
-    public function __get($endpoint) {
-        var_dump($this->scraper->get($endpoint));
+    public function get($endpoint) {
+        return $this->scraper->get($endpoint);
+    }
+
+    public function post($endpoint, $options){
+        return $this->scraper->post($endpoint, $options);
     }
 }
