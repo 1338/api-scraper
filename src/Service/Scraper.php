@@ -50,7 +50,7 @@ class Scraper
      * @param $options
      * @return bool|\Psr\Http\Message\ResponseInterface
      */
-    public function request($type = 'GET', $endpoint, $options) {
+    public function request($type = 'GET', $endpoint, $options = []) {
         try {
             return $this->scraper->request(
                 $type,
