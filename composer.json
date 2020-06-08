@@ -1,5 +1,5 @@
 {
-    "name": "rootshell/api-scrapper",
+    "name": "rootshell/api-scraper",
     "description": "Scrapes API's",
     "type": "library",
     "require": {
